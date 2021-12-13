@@ -7,7 +7,7 @@ using namespace std;
 
 
 
-void itc_even_index_list (const vector <int> &mass, vector <int> &mass2);
+void itc_even_index_list (const vector <int> &a1, vector <int> &a2);
 void itc_even_parts_list(const vector <int> &mass, vector <int> &mass2);
 int itc_positive_list(const vector <int> &mass);
 int itc_sl_list(const vector <int> &mass);
