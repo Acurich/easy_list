@@ -1,6 +1,8 @@
 #ifndef EASY_LIST_H_INCLUDED
 #define EASY_LIST_H_INCLUDED
+#include <iostream>
 #include <vector>
+#include <string>
 using namespace std;
 
 
