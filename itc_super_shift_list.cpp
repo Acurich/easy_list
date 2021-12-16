@@ -1,18 +1,20 @@
 #include "easy_list.h"
 
 void itc_super_shift_list(vector <int> &a, int n){
-    n %= a.size();
-    int tmp;
-    long long chislo;
-    for(int i = 0; i < a.size(); i++){
-        chislo = i - n;
-        if(chislo < 0){
-            chislo = a.size() + chislo;
-        }else if(chislo > a.size() -1){
-            chislo = chislo  - a.size();
+    int counter = a.size();
+    if(counter != 0){
+        if(n >= 0){
+            n = (n + counter) % counter;
+            for(int i = 0; i< n; i++){
+                itc_rshift_list(a);
+            }
         }
-        tmp = a[i];
-        a[i] = a[chislo];
-        mass[chislo] = tmp;
+        else{
+            n = n * -1;
+            n = (n + counter) % counter;
+            for(int i = 0; i < n; i++){
+                itc_lshift(a);
+            }
+        }
     }
 }
