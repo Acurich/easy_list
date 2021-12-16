@@ -16,5 +16,6 @@ void itc_rev_list(vector <int> &a);
 void itc_rev_par_list(vector <int> &a);
 void itc_rshift_list(vector <int> &a);
 void itc_super_shift_list(vector <int> &a, int n);
+void itc_lshift(vector <int> &a);
 
 #endif // EASY_LIST_H_INCLUDED
