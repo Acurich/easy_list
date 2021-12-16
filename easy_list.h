@@ -6,7 +6,7 @@
 using namespace std;
 
 
-
+void itc_abs(int & a);
 void itc_even_index_list (const vector <int> &a1, vector <int> &a2);
 void itc_even_parts_list(const vector <int> &a1, vector <int> &a2);
 int itc_positive_list(const vector <int> &a);
