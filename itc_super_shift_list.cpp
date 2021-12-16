@@ -45,7 +45,7 @@ void itc_super_shift_list(vector <int> & a, int n)
     }
     else
     {
-        get_abs(n);
+        itc_abs(n);
         for (int i = 0; i < n; i++)
         {
             itc_lshift_list(a);
