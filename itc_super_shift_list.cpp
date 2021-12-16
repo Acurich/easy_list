@@ -9,7 +9,7 @@ void itc_super_shift_list(vector <int> &a, int n){
         if(chislo < 0){
             chislo = a.size() + chislo;
         }else if(chislo > a.size() -1){
-            chislo = chislo  - a.size;
+            chislo = chislo  - a.size();
         }
         tmp = a[i];
         a[i] = a[chislo];
