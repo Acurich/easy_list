@@ -1,9 +1,11 @@
 #include "easy_list.h"
+
 void itc_abs(int & a)
 {
     if (a < 0)
         a *= -1;
 }
+
 void itc_rshift_list(vector <int> & a)
 {
     int len = a.size();
